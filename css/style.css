@@ -428,18 +428,9 @@ footer p {
   color: #3b3b3b;
 }
 
-/* .error {
-  border: 2px solid red;
-}
-
-.error-message {
-  color: red;
-  display: none; /* Ditampilkan saat ada kesalahan */
-/* } */
-
 input.error,
 select.error {
-  border: 2px solid red; /* Menambahkan border merah pada input yang error */
+  border: 2px solid red; 
 }
 
 .error-message {
@@ -509,8 +500,8 @@ select.error {
   flex-direction: column;
   gap: 5px;
   z-index: 10;
-  position: absolute; /* Tambahkan ini */
-  right: 24px; /* Sesuaikan dengan jarak yang diinginkan dari kanan */
+  position: absolute;
+  right: 24px;
 }
 
 .hamburger-menu .bar {
@@ -548,7 +539,6 @@ select.error {
   color: #5ea82d;
 }
 
-/* Aktifkan hamburger menu dan sidebar di perangkat kecil */
 @media (max-width: 768px) {
   nav .container-navigasi {
     display: none;
